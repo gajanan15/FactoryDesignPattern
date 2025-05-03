@@ -17,6 +17,8 @@ namespace FactoryDesignPattern
                 Console.WriteLine("Card Type: " + creditCard.GetCardType());
                 Console.WriteLine("Credit Limit: " + creditCard.GetCreditLimit());
                 Console.WriteLine("Annual Charge: " + creditCard.GetAnnualCharge());
+                //chnage the card type to Titanium comments
+                Console.WriteLine("Add commnets test");
             }
             else
             {
