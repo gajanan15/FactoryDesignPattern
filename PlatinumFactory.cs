@@ -13,6 +13,7 @@ namespace FactoryDesignPattern
         protected override ICreditCard MakeProduct()
         {
             ICreditCard product = new Platinum();
+            //test check
             return product;
         }
     }
